@@ -51,3 +51,9 @@
 - MiniMax H3: reference (R2V) and first/last-frame modes are mutually exclusive
 
 Read `PROJECTS.md` for detail and `ROADMAP.md` for what agents should build next.
+
+## NEW: w0rldw3aver360-walks (Aug 28)
+- Site: https://walks-w0rldw3aver360.netlify.app
+- HF: https://huggingface.co/datasets/TheMindExpansionNetwork/w0rldw3aver360-walks (7 clips, 4 worlds, CC0)
+- Method: v360 perspective extract -> MiniMax H3 I2V walk -> last-frame chaining
+- Repos: w0rldw3aver360-walks-site; builder script mindbotz-studio/scripts/build_walks_dataset.py
