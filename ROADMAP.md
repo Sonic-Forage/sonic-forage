@@ -54,6 +54,16 @@ Ordered queue. Each item is scoped so an agent can pick it up cold.
 - Compare 3DGS-aware generative edit only after the base/control path passes
 - Record holdout metrics, training time, peak VRAM, storage, splat size, render FPS, and camera-path flicker
 
+### W2C. H3 World Reference Atlas canary
+- Read `research/H3_WORLD_REFERENCE_ATLAS.md`
+- Capture four overlapping views of the same legal cyberpunk apartment
+- Compare Ref2VA with four separate pictures against one 2×2 atlas containing the same views
+- Test four pictures plus a neutral Unreal camera-motion reference video
+- Test four or five images anchored with `MiniMaxH3AddGuide`
+- Keep prompt, seed, duration, ratio, and checkpoint constant where modes permit
+- Score landmark retention, topology, transition morphing, flicker, camera adherence, and splat compatibility
+- Do not begin H3 LoRA training until a reference mode wins and the trainer's Ref2VA conditioning is verified
+
 ### W3. Forage Radio autoplay + publish push
 - Radio queue UI on discography page
 - 3 new DJ sets (build_demo_album.py retry if GMI limit cleared)
