@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "dataset_id": "h3_world_reference_starter_v1",
+  "created": "2026-08-29",
+  "purpose": "MiniMax H3 multi-image reference conditioning and atlas ablation",
+  "media_license": "CC0-1.0",
+  "source_provider": "Poly Haven",
+  "capture": {
+    "projection": "rectilinear",
+    "output_width": 1024,
+    "output_height": 1024,
+    "horizontal_fov_degrees": 100,
+    "vertical_fov_degrees": 100,
+    "pitch_degrees": 0,
+    "camera_center": "fixed",
+    "has_translational_parallax": false
+  },
+  "connection_order": [
+    {"picture": 1, "label": "A1", "yaw_degrees": 0, "file": "A1_front_yaw000.jpg"},
+    {"picture": 2, "label": "A2", "yaw_degrees": 90, "file": "A2_right_yaw090.jpg"},
+    {"picture": 3, "label": "A3", "yaw_degrees": 180, "file": "A3_back_yaw180.jpg"},
+    {"picture": 4, "label": "A4", "yaw_degrees": 270, "file": "A4_left_yaw270.jpg"}
+  ],
+  "scenes": [
+    {
+      "scene_id": "abandoned_workshop_02",
+      "source_page": "https://polyhaven.com/a/abandoned_workshop_02",
+      "source_download": "https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Tonemapped%20JPG/abandoned_workshop_02.jpg",
+      "source_md5": "df639e9a3e30683bf4dabc13e1ab4ebc",
+      "stress_test": "irregular geometry, foliage, graffiti, and open boundaries"
+    },
+    {
+      "scene_id": "small_cathedral",
+      "source_page": "https://polyhaven.com/a/small_cathedral",
+      "source_download": "https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Tonemapped%20JPG/small_cathedral.jpg",
+      "source_md5": "c9cdbd6165bc232a4dd54cd82bbe69c2",
+      "stress_test": "landmark retention, framed art, windows, and color anchors"
+    },
+    {
+      "scene_id": "metro_vijzelgracht",
+      "source_page": "https://polyhaven.com/a/metro_vijzelgracht",
+      "source_download": "https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Tonemapped%20JPG/metro_vijzelgracht.jpg",
+      "source_md5": "3d21570ca2502e85b72a467b8372403e",
+      "stress_test": "symmetry, repetition, long lines, and sparse landmarks"
+    }
+  ]
+}
