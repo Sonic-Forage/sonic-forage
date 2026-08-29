@@ -20,10 +20,20 @@ The w0rldw3aver360 project's full promise: **stand inside an AI-generated world*
 | Depth maps | ❌ not yet | DA360 / DAP / MoGe can generate |
 | SfM poses | ❌ not yet | COLMAP spherical model |
 
+## Unreal known-pose dataset branch
+
+Unreal can serve as a deterministic multi-view data factory rather than relying on pose recovery from generated video. A capture plugin exports rendered views, exact camera intrinsics/extrinsics, and an initial point cloud; identical cameras can then render paired visual styles.
+
+- Full experiment plan: `research/UNREAL_SPLAT_DATASET_FORGE.md`
+- Preferred first candidate: UnrealToColmap, because its Fab listing explicitly permits AI use and supports UE 5.8
+- SplatCapture is technically suitable but its Fab listing currently marks AI usage as disallowed; obtain clarification before using it for training
+- First canary: one cyberpunk apartment, base splat plus one geometry-matched Unreal-native restyle
+- Do not independently edit every camera view; preserve the camera graph and use multi-view/3DGS-aware editing
+
 ## Methods ranked by effort
 
 ### 1. SPAG-4D — direct pano → splat (FASTEST WIN, not yet installed)
-- github.com/cedarconnor/SPAG-4D
+- https://github.com/cedarconnor/SPAG4d
 - 4 backends: DA360 (~2s, 2GB, commercial-OK), DAP (metric depth), PaGeR (12GB, non-comm), SHARP 360 (8GB, best detail, non-comm)
 - **Install on PC (12GB 4070 fits DA360 + SHARP)** or RunPod
 - Includes OmniRoam v2 disocclusion repair (fills holes behind objects)
