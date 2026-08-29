@@ -2,6 +2,8 @@
 
 > AI-native studio empire run by Mind Expander + Hermes agent swarm.
 > The pipeline is the product.
+> **Agent entry points:** `PROJECTS.md` (what exists) · `ROADMAP.md` (what to build) ·
+> `W0RLDW3AVER360.md` (synthetic 360 world engine — full guide) · `SPLAT_RESEARCH.md` (splat methods) · `DATASETS.md` (footage sources)
 
 ## Live now
 
@@ -50,7 +52,9 @@
 - H3 chain: last-frame → first-frame chaining holds at 34–41 dB PSNR per seam
 - MiniMax H3: reference (R2V) and first/last-frame modes are mutually exclusive
 
-Read `PROJECTS.md` for detail and `ROADMAP.md` for what agents should build next.
+Read `PROJECTS.md` for detail, `ROADMAP.md` for what agents should build next,
+`W0RLDW3AVER360.md` for the complete synthetic-world/splat guide (agents start there),
+and `SPLAT_RESEARCH.md` for the Gaussian splatting method comparison.
 
 ## NEW: w0rldw3aver360-walks (Aug 28)
 - Site: https://walks-w0rldw3aver360.netlify.app

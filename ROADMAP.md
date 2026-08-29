@@ -4,6 +4,14 @@ Ordered queue. Each item is scoped so an agent can pick it up cold.
 
 ## P0 — Tonight (night shift)
 
+### N0. w0rldw3aver360 continuation (agents start HERE)
+- Read `W0RLDW3AVER360.md` — complete project guide
+- Remaining walk worlds: kart_club, orbita, lakeside_sunrise, metro_vijzelgracht, rosendal_park_sunset, rural_winter_roadside, small_cathedral, abandoned_workshop_02 (start frames ready in _starts/)
+- 1 walk clip per run via h3-chain-film skill → build_walks_dataset.py → redeploy walks site → push HF
+- Then: SPAG-4D install attempt (PC or pod), 12 panos → .ply
+- Then: loop-closure test (chain walk until last ≈ first, PSNR >30)
+- Full splat method comparison in `SPLAT_RESEARCH.md`
+
 ### N1. Krea2 LoRA training (PC required)
 - Config ready: `~/mindbotz-studio/training/w0rldw3aver360_krea2_v1.yaml`
 - 3000 steps, rank 32, 1024×512, ~3-4h on 4070
