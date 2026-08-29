@@ -23,6 +23,7 @@
 | Dataset | Contents | License |
 |---|---|---|
 | [H3 World Reference Starter](datasets/h3-reference-starter/README.md) | 3 CC0 worlds × 4 ordered views, labeled atlas, source pano, prompts, and manifest | CC0 media |
+| [Orbit-7 H1–H7 Pilot](datasets/h3-reference-starter/abandoned_workshop_02/orbit7_pilot/README.md) | 7-slot 360° loop, 15-second guide timeline, clean/labeled references, motion video, captions, and Comfy agent task | CC0 media |
 | [w0rldw3aver360](https://huggingface.co/datasets/TheMindExpansionNetwork/w0rldw3aver360) | 12 CC0 equirect panos + caption pairs | CC0 |
 | [w0rldw3aver360-motion](https://huggingface.co/datasets/TheMindExpansionNetwork/w0rldw3aver360-motion) | 12 NASA 360 clips (15s, 2:1) + montage | US Gov PD |
 | [mindbotz-style-sheets-v2](https://huggingface.co/datasets/TheMindExpansionNetwork/mindbotz-style-sheets-v2) | 20 character sheet pairs | CC-BY |

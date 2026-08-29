@@ -2,6 +2,8 @@
 
 Three CC0 environment packs prepared for MiniMax H3 reference-conditioning tests. Each scene contains four clean, ordered perspective images, one labeled 2×2 fallback atlas, and the downsampled equirectangular source panorama.
 
+The first deeper experiment is now ready under [`abandoned_workshop_02/orbit7_pilot/`](abandoned_workshop_02/orbit7_pilot/README.md): an H1–H7 full-loop sequence, 15-second/362-frame timing map, clean and removable-label variants, continuous motion reference, prompt, captions, and an executable task brief for a Comfy agent.
+
 > This is a **reference-conditioning and evaluation dataset**, not a Gaussian-splat training set. Every view rotates around one camera center, so the pack has no translated-camera parallax.
 
 ## Preview
@@ -40,6 +42,8 @@ h3-reference-starter/
 3. Generate one five-second Ref2VA clip with `ref_image_size=max`.
 4. Repeat with only `atlas_2x2_clockwise.jpg` and the atlas prompt.
 5. Keep seed, prompt, duration, resolution, steps, and camera instruction fixed. Compare landmark retention, topology, scene morphing, and camera adherence.
+
+For the longer H1–H7 experiment, use the Orbit-7 pilot. H7 intentionally duplicates H1 as a loop-closing endpoint. The preferred path uses clean images with `MiniMaxH3AddGuide`; the labeled slideshow is an ablation rather than the default.
 
 The images are cardinal views with a 100° horizontal and vertical field of view. Adjacent centers are 90° apart, giving 10° of image overlap. This intentionally creates a simple full-360 baseline. For the next route-focused experiment, derive additional 45° or 60° views from `source_pano_2048x1024.jpg`, or capture translated views in Unreal.
 

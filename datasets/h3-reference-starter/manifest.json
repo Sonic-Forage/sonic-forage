@@ -21,6 +21,21 @@
     {"picture": 3, "label": "A3", "yaw_degrees": 180, "file": "A3_back_yaw180.jpg"},
     {"picture": 4, "label": "A4", "yaw_degrees": 270, "file": "A4_left_yaw270.jpg"}
   ],
+  "experiments": [
+    {
+      "experiment_id": "orbit7_h1_h7_pilot",
+      "scene_id": "abandoned_workshop_02",
+      "path": "abandoned_workshop_02/orbit7_pilot",
+      "slot_yaws_degrees": [0, 60, 120, 180, 240, 300, 360],
+      "h7_duplicates_h1": true,
+      "preferred_duration_seconds": 15,
+      "h3_native_frame_count": 362,
+      "guide_frames": [0, 60, 120, 181, 241, 301, 361],
+      "primary_variant": "clean",
+      "labeled_variant": "debug_and_slideshow_ablation",
+      "motion_reference": "motion_ref_continuous_sweep_15s_362f_512.mp4"
+    }
+  ],
   "scenes": [
     {
       "scene_id": "abandoned_workshop_02",

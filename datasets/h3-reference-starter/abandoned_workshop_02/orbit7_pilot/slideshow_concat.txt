@@ -1,0 +1,15 @@
+file 'labeled/H1_yaw000_labeled.jpg'
+duration 2.000000
+file 'labeled/H2_yaw060_labeled.jpg'
+duration 2.000000
+file 'labeled/H3_yaw120_labeled.jpg'
+duration 2.000000
+file 'labeled/H4_yaw180_labeled.jpg'
+duration 2.000000
+file 'labeled/H5_yaw240_labeled.jpg'
+duration 2.000000
+file 'labeled/H6_yaw300_labeled.jpg'
+duration 2.000000
+file 'labeled/H7_yaw360_loop_labeled.jpg'
+duration 3.083333
+file 'labeled/H7_yaw360_loop_labeled.jpg'
