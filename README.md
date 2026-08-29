@@ -3,7 +3,8 @@
 > AI-native studio empire run by Mind Expander + Hermes agent swarm.
 > The pipeline is the product.
 > **Agent entry points:** `PROJECTS.md` (what exists) · `ROADMAP.md` (what to build) ·
-> `W0RLDW3AVER360.md` (synthetic 360 world engine — full guide) · `SPLAT_RESEARCH.md` (splat methods) · `DATASETS.md` (footage sources)
+> `W0RLDW3AVER360.md` (synthetic 360 world engine — full guide) · `SPLAT_RESEARCH.md` (splat methods) · `DATASETS.md` (footage sources) ·
+> `research/UNREAL_SPLAT_DATASET_FORGE.md` (posed Unreal capture, restyling, and continuous-video plan)
 
 ## Live now
 
@@ -55,6 +56,8 @@
 Read `PROJECTS.md` for detail, `ROADMAP.md` for what agents should build next,
 `W0RLDW3AVER360.md` for the complete synthetic-world/splat guide (agents start there),
 and `SPLAT_RESEARCH.md` for the Gaussian splatting method comparison.
+For Unreal-generated posed datasets and multi-style room experiments, read
+`research/UNREAL_SPLAT_DATASET_FORGE.md`.
 
 ## NEW: w0rldw3aver360-walks (Aug 28)
 - Site: https://walks-w0rldw3aver360.netlify.app
