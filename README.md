@@ -67,3 +67,8 @@ frame-indexed guides, and continuous world animation, read
 - HF: https://huggingface.co/datasets/TheMindExpansionNetwork/w0rldw3aver360-walks (7 clips, 4 worlds, CC0)
 - Method: v360 perspective extract -> MiniMax H3 I2V walk -> last-frame chaining
 - Repos: w0rldw3aver360-walks-site; builder script mindbotz-studio/scripts/build_walks_dataset.py
+
+## SESSION CONTEXT DROP (2026-08-29)
+- GitHub: https://github.com/Sonic-Forage/context-drop-20260829
+- HuggingFace: https://huggingface.co/datasets/TheMindExpansionNetwork/sonic-forage-context-drop-20260829
+- Full handoff doc: CONTEXT_DROP.md (infrastructure state, project status, continuation steps, gotchas)
