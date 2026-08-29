@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "sequence_id": "worldweaver_orbit7_loop",
+  "fps": 24,
+  "formula": "round(phase * (frame_count - 1))",
+  "slots": [
+    {"slot": "H1", "yaw_degrees": 0, "phase": 0.0, "role": "loop_start"},
+    {"slot": "H2", "yaw_degrees": 60, "phase": 0.1666666667, "role": "clockwise_step_1"},
+    {"slot": "H3", "yaw_degrees": 120, "phase": 0.3333333333, "role": "clockwise_step_2"},
+    {"slot": "H4", "yaw_degrees": 180, "phase": 0.5, "role": "opposite_view"},
+    {"slot": "H5", "yaw_degrees": 240, "phase": 0.6666666667, "role": "clockwise_step_4"},
+    {"slot": "H6", "yaw_degrees": 300, "phase": 0.8333333333, "role": "clockwise_step_5"},
+    {"slot": "H7", "yaw_degrees": 360, "phase": 1.0, "role": "loop_close_same_view_as_H1"}
+  ],
+  "timelines": {
+    "concept_121_frames": {"frame_count": 121, "anchor_frames": [0, 20, 40, 60, 80, 100, 120]},
+    "h3_native_5_seconds": {"frame_count": 124, "anchor_frames": [0, 21, 41, 62, 82, 103, 123]},
+    "h3_native_10_seconds": {"frame_count": 243, "anchor_frames": [0, 40, 81, 121, 161, 202, 242]},
+    "h3_native_15_seconds": {"frame_count": 362, "anchor_frames": [0, 60, 120, 181, 241, 301, 361]}
+  },
+  "preferred_generation": "h3_native_15_seconds",
+  "primary_inputs": "clean",
+  "labeled_left_strip_pixels": 160,
+  "labeled_strip_removal": "crop x=160, preserve the remaining 1024x1024 image"
+}

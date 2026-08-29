@@ -5,7 +5,8 @@
 > **Agent entry points:** `PROJECTS.md` (what exists) · `ROADMAP.md` (what to build) ·
 > `W0RLDW3AVER360.md` (synthetic 360 world engine — full guide) · `SPLAT_RESEARCH.md` (splat methods) · `DATASETS.md` (footage sources) ·
 > `research/UNREAL_SPLAT_DATASET_FORGE.md` (posed Unreal capture and restyling) ·
-> `research/H3_WORLD_REFERENCE_ATLAS.md` (multi-view H3 world animation and reference plan)
+> `research/H3_WORLD_REFERENCE_ATLAS.md` (multi-view H3 world animation and reference plan) ·
+> `datasets/h3-reference-starter/` (ready-to-upload CC0 H3 reference packs)
 
 ## Live now
 
@@ -17,10 +18,12 @@
 | Qwen3.8-FM capability site | https://qwen38-fm.netlify.app | ✅ Live |
 | w0rldw3aver360 world explorer | https://w0rldw3aver360.netlify.app | ✅ Live (12 worlds + film) |
 
-## HuggingFace datasets
+## Datasets
 
 | Dataset | Contents | License |
 |---|---|---|
+| [H3 World Reference Starter](datasets/h3-reference-starter/README.md) | 3 CC0 worlds × 4 ordered views, labeled atlas, source pano, prompts, and manifest | CC0 media |
+| [Orbit-7 H1–H7 Pilot](datasets/h3-reference-starter/abandoned_workshop_02/orbit7_pilot/README.md) | 7-slot 360° loop, 15-second guide timeline, clean/labeled references, motion video, captions, and Comfy agent task | CC0 media |
 | [w0rldw3aver360](https://huggingface.co/datasets/TheMindExpansionNetwork/w0rldw3aver360) | 12 CC0 equirect panos + caption pairs | CC0 |
 | [w0rldw3aver360-motion](https://huggingface.co/datasets/TheMindExpansionNetwork/w0rldw3aver360-motion) | 12 NASA 360 clips (15s, 2:1) + montage | US Gov PD |
 | [mindbotz-style-sheets-v2](https://huggingface.co/datasets/TheMindExpansionNetwork/mindbotz-style-sheets-v2) | 20 character sheet pairs | CC-BY |
@@ -60,7 +63,8 @@ and `SPLAT_RESEARCH.md` for the Gaussian splatting method comparison.
 For Unreal-generated posed datasets and multi-style room experiments, read
 `research/UNREAL_SPLAT_DATASET_FORGE.md`. For H3 multi-image references, contact sheets,
 frame-indexed guides, and continuous world animation, read
-`research/H3_WORLD_REFERENCE_ATLAS.md`.
+`research/H3_WORLD_REFERENCE_ATLAS.md`. To run the first separate-images versus
+contact-sheet experiment immediately, use `datasets/h3-reference-starter/`.
 
 ## NEW: w0rldw3aver360-walks (Aug 28)
 - Site: https://walks-w0rldw3aver360.netlify.app

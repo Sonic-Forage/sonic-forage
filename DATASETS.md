@@ -2,6 +2,14 @@
 
 Curated sources for motion-reference video (H3 R2V video refs + splat training). Verified 2026-08-28.
 
+## Ready in this repository
+
+| Dataset | What | License | Use |
+|---|---|---|---|
+| [`datasets/h3-reference-starter/`](datasets/h3-reference-starter/README.md) | 3 Poly Haven environments × 4 ordered cardinal views, one 2×2 atlas, source pano, manifest, hashes, and prompt templates | CC0 media | H3 Ref2VA separate-image baseline, atlas ablation, world-consistency scoring |
+
+The starter pack uses fixed-center panorama rotations and therefore has no translational parallax. It is suitable for H3 reference-conditioning tests, not Gaussian-splat reconstruction training.
+
 ## Verified available
 
 ### CC / licensed OK

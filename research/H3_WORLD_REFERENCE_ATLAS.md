@@ -32,6 +32,20 @@ Official sources:
 - Official Ref2VA prompt guide: https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/VIDEO_PROMPT_WRITING_GUIDE_ref_en.md
 - Official integration index: https://github.com/MiniMax-AI/awesome-minimax-h3-integration
 
+## Ready-to-run CC0 starter pack
+
+The repository now includes [`datasets/h3-reference-starter/`](../datasets/h3-reference-starter/README.md):
+
+- three legally reusable Poly Haven environments;
+- four ordered 1024×1024 cardinal views per environment;
+- one labeled clockwise 2×2 atlas per environment;
+- one 2048×1024 equirectangular source panorama per environment;
+- source URLs, CC0 provenance, manifest, checksums, exact build script, and H3 prompt templates.
+
+Run the first Ref2VA ablation with four separate A1–A4 files, then repeat with the atlas only. These views rotate around one camera center and are intentionally a reference-conditioning baseline. They do not contain the translated-camera parallax required for Gaussian-splat reconstruction.
+
+The first Orbit-7 implementation is also ready at [`datasets/h3-reference-starter/abandoned_workshop_02/orbit7_pilot/`](../datasets/h3-reference-starter/abandoned_workshop_02/orbit7_pilot/README.md). It maps H1–H7 to a complete 360° loop, with H7 returning to H1. Native 15-second H3 uses 362 frames on the `17k + 5` grid, so the seven recommended guide frames are `0, 60, 120, 181, 241, 301, 361`.
+
 ## H3's two model families must not be confused
 
 | Family | Best use | Inputs | Important constraint |

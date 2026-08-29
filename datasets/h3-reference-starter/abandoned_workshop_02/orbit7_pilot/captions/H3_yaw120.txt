@@ -1,0 +1,1 @@
+worldweaver_orbit7 slot=H3 yaw=120deg phase=2/6 direction=clockwise environment=fixed camera_center=fixed role=orbit_step
