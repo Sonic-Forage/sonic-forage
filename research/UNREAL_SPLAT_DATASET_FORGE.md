@@ -241,6 +241,8 @@ A run is not successful merely because a PLY opens.
 
 ## Continuous video and FastH3 direction
 
+Detailed H3 reference design, prompt templates, contact-sheet fallback, AddGuide routing, and the proposed World Weaver Orbit-5 LoRA are documented in `research/H3_WORLD_REFERENCE_ATLAS.md`.
+
 After a room produces a stable splat:
 
 1. Author deterministic Unreal camera splines for walk, orbit, crouch, doorway, and room-to-room motion.
