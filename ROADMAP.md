@@ -44,6 +44,16 @@ Ordered queue. Each item is scoped so an agent can pick it up cold.
 - PLY→SPZ compression for web embed
 - Add splat viewer section to w0rldw3aver360 site
 
+### W2B. Unreal Splat Dataset Forge — cyberpunk apartment canary
+- Read `research/UNREAL_SPLAT_DATASET_FORGE.md`
+- Prefer the AI-allowed UnrealToColmap plugin; do not use SplatCapture for AI training until its Fab usage flag is clarified
+- Select one legally clean cyberpunk apartment scene
+- Smoke capture: sparse 6-camera grid at preview resolution
+- Validate exported COLMAP poses, images, and point cloud in one trainer
+- Train base splat; then render one Unreal-native paired restyle from identical camera poses
+- Compare 3DGS-aware generative edit only after the base/control path passes
+- Record holdout metrics, training time, peak VRAM, storage, splat size, render FPS, and camera-path flicker
+
 ### W3. Forage Radio autoplay + publish push
 - Radio queue UI on discography page
 - 3 new DJ sets (build_demo_album.py retry if GMI limit cleared)
